@@ -1,7 +1,7 @@
 version: "2"
 services:
   app:
-    build: ../../Desktop/app
+    build: ./app
     container_name: "Final_Project"
     links:
       - db
